@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=La+Belle+Aurore&family=Lilita+One&family=Roboto:wght@400;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crete+Round&family=La+Belle+Aurore&family=Lilita+One&family=Roboto:wght@400;700;900&family=Source+Serif+Pro&display=swap');
 
 
 .home-page {
@@ -15,7 +14,7 @@
   
     h1 {
       color: #fff;
-      font-size: 56px;
+      font-size: 60px;
       line-height: 53px;
       margin: 0;
       font-family: 'Lilita One';
@@ -25,18 +24,18 @@
         content: '<h1>';
         font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
-        font-size: 18px;
+        font-size: 20px;
         position: absolute;
         margin-top: -40px;
         left: -15px;
         opacity: 0.6;
       }
-  
+     
       &:after {
         content: '<h1/>';
         font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
-        font-size: 18px;
+        font-size: 20px;
         position: absolute;
         margin-top: 18px;
         margin-left: 20px;
@@ -59,8 +58,8 @@
     h2 {
       color: #a8a7a7;
       margin-top: 20px;
-      font-weight: 400;
-      font-size: 11px;
+      font-weight: 700;
+      font-size: 14px;
       font-family: sans-serif;
       letter-spacing: 3px;
       animation: fadeIn 1s 1.8s backwards;
@@ -69,9 +68,9 @@
     .flat-button {
       color: #ffd700;
       font-size: 13px;
-      font-weight: 400;
+      font-weight: 900;
       letter-spacing: 4px;
-      font-family: sans-serif;
+      font-family: 'Crete Round';
       text-decoration: none;
       padding: 10px 18px;
       border: 1px solid #ffd700;

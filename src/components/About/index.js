@@ -4,6 +4,7 @@ import {
     faAngular,
     faCss3,
     faGitAlt,
+    faGolang,
     faHtml5,
     faJsSquare,
     faReact,
@@ -41,7 +42,7 @@ const About = () => {
             <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faGolang} color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />

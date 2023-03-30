@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=La+Belle+Aurore&family=Lilita+One&family=Roboto:wght@400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crete+Round&family=La+Belle+Aurore&family=Lilita+One&family=Roboto:wght@400;700;900&family=Source+Serif+Pro&display=swap');
 
 .page{
     width: 100%;
@@ -23,7 +23,7 @@
     position: absolute;
     bottom: 0;
     left: 120px;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'La Belle Aurore', cursive;
 }
 
@@ -51,8 +51,8 @@
 .container.portfolio-page {
   
     h1 {
-      font-size: 53px;
-      font-family: 'Coolvetica';
+      font-size: 59px;
+      font-family: 'Lilita One';
       color: #ffd700;
       font-weight: 400;
       margin-top: 0;
@@ -87,10 +87,10 @@
     }
 
     p {
-      font-size: 13px;
+      font-size: 19px;
       color: #fff;
-      font-family: sans-serif;
-      font-weight: 300;
+      font-family: 'Crete Round';
+      font-weight: 100;
       max-width: fit-content;
       animation: pulse 1s;
       &:nth-of-type(1) {
