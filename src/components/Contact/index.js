@@ -98,7 +98,7 @@ const Contact = () => {
           <MapContainer 
             center={[37.523922, -120.857694]} 
             zoom={16} 
-            scrollWheelZoom={true}>
+            scrollWheelZoom={false}>
             <TileLayer 
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
             <Marker position={[37.523922, -120.857694]}>

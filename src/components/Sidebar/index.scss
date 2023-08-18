@@ -47,7 +47,7 @@
             }
 
             &:hover{
-                color:#ffd700;
+                color:#FAE563;
 
                 svg{
                     opacity: 0;
@@ -58,7 +58,7 @@
             }
             &:after{
                 content: '';
-                font-size: 9px;
+                font-size: 12px;
                 letter-spacing: 2px;
                 position: absolute;
                 bottom: 0;
@@ -94,7 +94,7 @@
 
         a.active{
             svg{
-                color:#ffd700;
+                color:#FAE563;
             }
         }
     }
@@ -117,7 +117,7 @@
                 line-height: 16px;
 
                 &:hover svg{
-                    color:#ffd700;
+                    color:#FAE563;
 
                 }
             }

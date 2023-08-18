@@ -3,7 +3,7 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 //import { getDocs, collection } from 'firebase/firestore';
-//import { db } from '../../firebase';
+//import { db } from '../../fireBase';
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -18,6 +18,7 @@ const Portfolio = () => {
             clearTimeout(timer);
         }
     });
+   
 
 
    

@@ -3,16 +3,21 @@ import Loader from 'react-loaders'
 import {
     faAngular,
     faCss3,
+    faCss3Alt,
     faGitAlt,
+    faGithubAlt,
     faGolang,
     faHtml5,
     faJsSquare,
+    faPython,
     faReact,
+    faSquareGithub,
   } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
 const About = () => {
+  
 
     return (
         <div className='container about-page'>
@@ -33,22 +38,22 @@ const About = () => {
                     improving my chops one design problem at a time.
                 </p>
                 <p>
-                    If I need to define myself in one sentence that would be a family
-                    person, father of a beautiful daughter, a sports fanatic,
-                    photography enthusiast, and tech-obsessed!!!
+                    If I need to define myself in one sentence, I am someone who values family deeply,
+                    maintains an active lifestyle through gym activities, a sports fanatic,
+                     and a strong interest in the world of technology!!
                 </p>
             </div>
 
             <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faGolang} color="#DD0031" />
+              <FontAwesomeIcon icon={faGolang} color="#5ED4F4"/>
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faCss3Alt} color="FFD43B" />
             </div>
             <div className="face4">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
@@ -57,7 +62,7 @@ const About = () => {
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faGitAlt} color="#F1502F" />
             </div>
           </div>
         </div>
